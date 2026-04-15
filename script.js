@@ -33,7 +33,7 @@ if (pergunta && pergunta.innerText.includes("5+3-2")) {
       const resposta = input.value.trim();
 
       if (resposta === "6") {
-        window.location.href = "/enigma/6/";
+        window.location.href = "/youarenotalone/6/";
       } else {
         input.value = "";
         input.placeholder = "errado...";
